@@ -1,0 +1,30 @@
+body{
+    font-size: 20px;
+    text-align: center;
+}
+
+h1{
+    font-size: 25px;
+    color: turquoise;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 5px rgb(211, 211, 211);
+}
+
+.container{
+    font-size: 22px;
+    color: salmon;
+    text-shadow: 2px 2px 5px cornsilk;
+}
+
+.convert{
+    font-size: 22px;
+    color: sandybrown;
+    text-shadow: 2px 2px 5px cornsilk;
+}
+
+option{
+    color: palegreen;
+    background-color: lightcoral;
+}
+
+
