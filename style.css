@@ -1,6 +1,7 @@
 body{
     font-size: 20px;
     text-align: center;
+    /*background: linear-gradient(139deg,#fc8906 0%,#e214a494 50%);*/
 }
 
 h1{
@@ -10,21 +11,50 @@ h1{
     text-shadow: 2px 2px 5px rgb(211, 211, 211);
 }
 
-.container{
+
+.content{
     font-size: 22px;
     color: salmon;
     text-shadow: 2px 2px 5px cornsilk;
+    text-decoration: none;
+    margin: 6px 6px;
+    padding: 20px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.content:hover{
+    background-color: mintcream;
 }
 
 .convert{
     font-size: 22px;
     color: sandybrown;
     text-shadow: 2px 2px 5px cornsilk;
+    text-decoration: none;
+    margin: 8px 8px;
+    padding: 25px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.convert:hover{
+    background-color: seashell;
+}
+
+.merge{
+    font-size: 22px;
+    color: palevioletred;
+    text-shadow: 2px 2px 5px cornsilk;
+    text-decoration: none;
+    margin: 8px 8px;
+    padding: 25px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.merge:hover{
+    background-color: lightgoldenrodyellow;
 }
 
 option{
     color: palegreen;
     background-color: lightcoral;
 }
-
-
