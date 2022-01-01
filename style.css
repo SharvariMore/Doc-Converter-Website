@@ -58,3 +58,14 @@ option{
     color: palegreen;
     background-color: lightcoral;
 }
+
+.colorchange{
+    animation: colorchangedocs 3s infinite;
+}
+
+@keyframes colorchangedocs{
+    0%{color: turquoise;}
+    25%{color: rosybrown;}
+    50%{color: palegreen;}
+    100%{color: lightsalmon;}
+}
