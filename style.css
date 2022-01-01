@@ -5,7 +5,7 @@ body{
 }
 
 h1{
-    font-size: 25px;
+    font-size: 50px;
     color: turquoise;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: 2px 2px 5px rgb(211, 211, 211);
@@ -13,7 +13,7 @@ h1{
 
 
 .content{
-    font-size: 22px;
+    font-size: 26px;
     color: salmon;
     text-shadow: 2px 2px 5px cornsilk;
     text-decoration: none;
@@ -27,7 +27,7 @@ h1{
 }
 
 .convert{
-    font-size: 22px;
+    font-size: 26px;
     color: sandybrown;
     text-shadow: 2px 2px 5px cornsilk;
     text-decoration: none;
@@ -41,7 +41,7 @@ h1{
 }
 
 .merge{
-    font-size: 22px;
+    font-size: 26px;
     color: palevioletred;
     text-shadow: 2px 2px 5px cornsilk;
     text-decoration: none;
@@ -69,3 +69,34 @@ option{
     50%{color: palegreen;}
     100%{color: lightsalmon;}
 }
+
+@media screen and (max-width: 1150px){
+    body{
+        background-color: ivory;
+    }
+}
+
+@media screen and (max-width: 950px){
+    body{
+        background-color: aliceblue;
+    }
+    h1{
+        font-style: italic;
+    }
+    .content, .convert, .merge{
+        font-style: italic;
+    }
+}
+
+@media screen and (max-width: 650px){
+    body{
+        background-color: lavenderblush;
+    }
+    h1{
+        font-style: oblique;
+    }
+    .content, .convert, .merge{
+        font-style: oblique;
+    }
+}
+   
