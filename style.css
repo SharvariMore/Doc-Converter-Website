@@ -62,25 +62,21 @@ option{
     animation: colorchangedocs 3s infinite;
 }
 
-#custom-button {
+#myFile {
     padding: 10px;
+    width: 260px;
     color: white;
     background-color: #009578;
     border: 1px solid #000;
     border-radius: 5px;
     cursor: pointer;
+    box-sizing: border-box;
   }
   
-  #custom-button:hover {
+  #myFile:hover {
     background-color: #00b28f;
   }
   
-  #custom-text {
-    margin-left: 10px;
-    font-size: 20px;
-    font-family: sans-serif;
-    color: rgb(170, 170, 170);
-  }
 
 @keyframes colorchangedocs{
     0%{color: turquoise;}
@@ -118,3 +114,4 @@ option{
         font-style: oblique;
     }
 }
+    
