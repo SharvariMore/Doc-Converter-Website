@@ -1,4 +1,6 @@
-const realFileBtn = document.getElementById("real-file");
+/*For uploading single file*/
+
+/*const realFileBtn = document.getElementById("real-file");
 const customBtn = document.getElementById("custom-button");
 const customTxt = document.getElementById("custom-text");
 
@@ -16,4 +18,10 @@ realFileBtn.addEventListener("change", function() {
     {
         customTxt.innerHTML = "No file chosen, yet";
     }
-});
+});*/
+
+/*For uploading mutiple files*/
+
+function myFunction() {
+    var x = document.getElementById("myFile").multiple;
+}
